@@ -71,7 +71,7 @@ body {
 }
 
 .container-col2 {
-  background-image: url("assets/img/image-header-desktop.jpg");
+  background-image: url("../img/image-header-desktop.jpg");
   background-size: cover;
   background-color: #954cc2;
   opacity: 0.55;
