@@ -12,15 +12,30 @@ body{
     padding-bottom: 50px;
 }
 
-.attribution { font-size: 11px; text-align: center; color: $white; font-size: $font-size; margin-top: 20px;}
-    .attribution a { color: rgba(65, 163, 62, 1); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: $white; 
+    font-size: $font-size;
+    margin-top: 20px;
+    position: fixed;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%, -15%);
+    
+}
+.attribution a {
+    color: rgba(65, 163, 62, 1);
+}
 
 .container{
     background-color: $dark-desaturated-blue;
-    width: 1200px;
+    width: 1300px;
     height: auto;
-    margin: auto;
-    margin-top: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
     display: flex;
     border-radius: 10px 0 10px 10px;
     
@@ -68,7 +83,7 @@ body{
     
     
     &-col{
-        padding-right: 40px;
+        padding-right: 60px;
         display: block;
         > p{
             font-family: 'Lexend Deca', sans-serif;
