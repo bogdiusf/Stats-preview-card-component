@@ -21,6 +21,7 @@ body {
   text-align: center;
   color: white;
   font-size: 15px;
+  margin-top: 20px;
 }
 
 .attribution a {
@@ -29,11 +30,10 @@ body {
 
 .container {
   background-color: #1b1938;
-  width: 60%;
+  width: 1200px;
   height: auto;
   margin: auto;
   margin-top: 10%;
-  margin-bottom: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

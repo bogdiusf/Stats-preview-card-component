@@ -12,16 +12,15 @@ body{
     padding-bottom: 50px;
 }
 
-.attribution { font-size: 11px; text-align: center; color: $white; font-size: $font-size;}
+.attribution { font-size: 11px; text-align: center; color: $white; font-size: $font-size; margin-top: 20px;}
     .attribution a { color: rgba(65, 163, 62, 1); }
 
 .container{
     background-color: $dark-desaturated-blue;
-    width: 60%;
+    width: 1200px;
     height: auto;
     margin: auto;
     margin-top: 10%;
-    margin-bottom: 10%;
     display: flex;
     border-radius: 10px 0 10px 10px;
     
