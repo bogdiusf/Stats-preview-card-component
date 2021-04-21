@@ -10,10 +10,6 @@ html {
 
 body {
   background-color: #090b1a;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .attribution {
@@ -45,7 +41,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-radius: 10px 0 10px 10px;
+  border-radius: 10px;
 }
 
 .container-col1, .container-col2 {
@@ -115,8 +111,11 @@ body {
 }
 
 @media (max-width: 375px) {
+  .attribution {
+    display: none;
+  }
   .container {
-    width: 100%;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -125,8 +124,8 @@ body {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     border-radius: 10px;
-    overflow: hidden;
     height: 850px;
+    margin-top: 50px;
   }
   .container-col1 {
     text-align: center;
@@ -166,6 +165,7 @@ body {
   }
   .flex-col {
     padding-bottom: 30px;
+    margin-left: 10%;
   }
   .flex-col > span {
     font-size: 25px;
