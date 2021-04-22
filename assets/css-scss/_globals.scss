@@ -26,7 +26,7 @@ body{
 
 .container{
     background-color: $dark-desaturated-blue;
-    width: 1300px;
+    width: 70%;
     height: auto;
     position: absolute;
     top: 50%;
@@ -110,7 +110,7 @@ body{
         flex-direction: column-reverse;
         border-radius: 10px;
         height: 850px;
-        margin-top: 50px;
+        // margin-top: 50px;
         &-col1{ 
             text-align: center;
             width: 300px;
@@ -138,15 +138,17 @@ body{
     }
 
     .flex{
+        display: flex;
         flex-direction: column;
-        text-align: center;
-        justify-content: center;
+        width: 360px;
+        // text-align: left;
+        // justify-content: left;
         align-items: center;
         margin-top: 50px;
-        margin-left: 40px;
+        // margin-left: 40px;
         &-col{
             padding-bottom: 30px;
-            margin-left:10%;
+            // margin-left:10px;
             > span{
                 font-size: 25px;
             }

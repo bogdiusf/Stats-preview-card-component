@@ -31,7 +31,7 @@ body {
 
 .container {
   background-color: #1b1938;
-  width: 1300px;
+  width: 70%;
   height: auto;
   position: absolute;
   top: 50%;
@@ -125,7 +125,6 @@ body {
             flex-direction: column-reverse;
     border-radius: 10px;
     height: 850px;
-    margin-top: 50px;
   }
   .container-col1 {
     text-align: center;
@@ -149,23 +148,21 @@ body {
     height: 250px;
   }
   .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    width: 360px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     margin-top: 50px;
-    margin-left: 40px;
   }
   .flex-col {
     padding-bottom: 30px;
-    margin-left: 10%;
   }
   .flex-col > span {
     font-size: 25px;
